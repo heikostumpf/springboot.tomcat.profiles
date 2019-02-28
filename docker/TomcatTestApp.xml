@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- <Environment name="spring.profiles.active" type="java.lang.String" value="dev"/> -->
+    <Environment name="spring.config.location" value="file:${catalina.home}/conf/application-prod.properties" type="java.lang.String"/>
+</Context>
